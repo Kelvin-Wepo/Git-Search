@@ -1,0 +1,2 @@
+Permission is hereby granted for free to any person obtaining a copy of this software and its associated documentation to use it without restriction be it for educational or commercial purposes. The software is provided 'as it is' without warranty of any kind, express or implied and the author is not liable for any claim, damages or other liability arising from the use or in connection to this software.
+Copyright (c) 2022 Kelvin wepo
