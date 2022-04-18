@@ -8,12 +8,14 @@ import { RepositoriesComponent } from './repositories/repositories.component';
 import { UserComponent } from './user/user.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     RepositoriesComponent,
-    UserComponent
+    UserComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

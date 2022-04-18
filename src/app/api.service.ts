@@ -9,6 +9,9 @@ export class APIService {
 private userName:string;
 private user:any;
 private _Url = 'https://api.github.com/users';
+private clientId='92edcd4370946e511cd7'
+private clientSecret='92edcd4370946e511cd7'
+
 
   constructor(private http:HttpClient) { 
     console.log('service is ready')
@@ -23,7 +26,7 @@ private _Url = 'https://api.github.com/users';
   }
   //get profile info
   getUserInfo() {
-    return this.http.get('https://api.github.com/users/' + this.userName); }
+    return this.http.get('https://api.github.com/users/' + this.userName + "?client_Id=" + this.clientId + "?client_secret=" + this.clientSecret); }
   //get repo information
   getUserRepos() {
     return this.http.get(
